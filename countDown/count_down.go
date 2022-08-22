@@ -17,7 +17,7 @@ type SpySleeper struct {
 	Calls int
 }
 
-func (s *SpySleeper) sleep() {
+func (s *SpySleeper) Sleep() {
 	s.Calls++
 }
 
